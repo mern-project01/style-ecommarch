@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Main/Main";
 import Home from "../Pages/Home/Home";
-import Shope from "../Pages/Shope/Shope";
+import NewShope from "../component/Shope/NewShope";
 
 const router = createBrowserRouter([
   {
@@ -12,9 +12,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
+   
       {
-        path: '/shope',
-        element: <Shope></Shope>,
+        path: '/newshope',
+        element: <NewShope></NewShope>,
         loader:()=>fetch('product.json')
       }
     ],

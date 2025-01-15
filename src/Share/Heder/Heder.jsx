@@ -6,7 +6,7 @@ const Heder = () => {
     <>
     <li><NavLink to="/">Home</NavLink></li>
     <li><NavLink to="/login">Login</NavLink></li>
-    <li><NavLink to="/shope">Shope</NavLink></li>
+    <li><NavLink to="/newshope">Shope</NavLink></li>
     </>
   )
   return (
